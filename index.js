@@ -16,6 +16,9 @@ console.log(ExplorerService.getAmountOfExplorersByMission(explorers, "node"));
 console.log("The usernames of explorers in node mission are: ");
 console.log(ExplorerService.getExplorersUsernamesByMission(explorers, "node"));
 
+console.log("The usernames of explorers stack that includes elixir mission are: ");
+console.log(ExplorerService.filterExplorerByStack(explorers, "elixir"));
+
 
 
 const explorer1 = {name: "Explorer1", score: 1};
