@@ -110,6 +110,7 @@
     "exit": "^0.1.2",
     "expand-brackets": "^2.1.4",
     "expect": "^26.6.2",
+    "express": "^4.18.1",
     "extend-shallow": "^3.0.2",
     "extglob": "^2.0.4",
     "fast-deep-equal": "^3.1.3",
