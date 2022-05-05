@@ -1,6 +1,7 @@
 const Reader = require("./lib/utils/reader");
 const ExplorerService = require("./lib/services/ExplorerService");
 const FizzbuzzService = require("./lib/services/FizzbuzzService");
+const ExplorerController = require("./lib/controllers/ExplorerController");
 
 const explorers = Reader.readJsonFile("explorers.json");
 
@@ -27,3 +28,4 @@ console.log(FizzbuzzService.applyValidationInExplorer(explorer3)); // {name: "Ex
 console.log(FizzbuzzService.applyValidationInExplorer(explorer5)); // {name: "Explorer5", score: 5, trick: "BUZZ"}
 console.log(FizzbuzzService.applyValidationInExplorer(explorer15));// {name: "Explorer15", score: 15, trick: "FIZZBUZZ"}
 
+console.log(ExplorerController.getExplorersByMission("node"));
